@@ -1,0 +1,9 @@
+bin/
+*.exe
+*.o
+*.out
+rapport/*.aux
+rapport/*.log
+rapport/*.toc
+rapport/*.synctex.gz
+.vscode/

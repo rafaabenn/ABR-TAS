@@ -1,0 +1,41 @@
+Arbre (racine a gauche, sous-arbre droit en haut) :
+            80
+      70
+                  65
+            60
+50
+                  45
+            40
+                  35
+      30
+            20
+
+Nombre de noeuds : 10
+Hauteur          : 4
+Minimum          : 20
+Maximum          : 80
+
+Parcours prefixe (racine, gauche, droite) : 50 30 20 40 35 45 70 60 65 80 
+Parcours infixe  (gauche, racine, droite) : 20 30 35 40 45 50 60 65 70 80 
+Parcours suffixe (gauche, droite, racine) : 20 35 45 40 30 65 60 80 70 50 
+Parcours en largeur (niveau par niveau)   : 50 30 70 20 40 60 80 35 45 65 
+
+Recherche de 45 : trouve
+Recherche de 55 : absent
+Insertion de 40 (deja present) : refuse
+
+Suppression de 20 (feuille) :
+  infixe : 30 35 40 45 50 60 65 70 80 
+Suppression de 60 (un seul enfant, 65) :
+  infixe : 30 35 40 45 50 65 70 80 
+Suppression de 50, la racine (deux enfants : remplacee par 65, le minimum a droite) :
+  infixe : 30 35 40 45 65 70 80 
+
+Arbre apres les suppressions :
+            80
+      70
+65
+                  45
+            40
+                  35
+      30
