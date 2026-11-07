@@ -2,8 +2,7 @@ bin/
 *.exe
 *.o
 *.out
-rapport/*.aux
-rapport/*.log
-rapport/*.toc
-rapport/*.synctex.gz
 .vscode/
+# rapport et Makefile gardes en local, pas sur GitHub
+rapport/
+Makefile
